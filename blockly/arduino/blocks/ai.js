@@ -89,6 +89,21 @@ Blockly.Blocks['ai_face_detect'] = {
 		    }
 };
 
+Blockly.Blocks['ai_number_detect'] = {
+	  init: function() {
+		      this.appendDummyInput()
+		          .appendField("数字检测");
+		      this.appendValueInput("input_image")
+		          .setCheck(null)
+		          .setAlign(Blockly.ALIGN_RIGHT)
+		          .appendField("图像");
+		      this.setOutput(true, null);
+		      this.setColour(330);
+		   this.setTooltip("");
+		   this.setHelpUrl("");
+		    }
+};
+
 Blockly.Blocks['sensor_accelerometer'] = {
 	  init: function() {
 		      this.appendDummyInput()
