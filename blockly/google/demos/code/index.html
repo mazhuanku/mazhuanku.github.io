@@ -13,6 +13,7 @@
   <script src="../../php_compressed.js"></script>
   <script src="../../lua_compressed.js"></script>
   <script src="../../dart_compressed.js"></script>
+  <script src="../../blocks/date.js"></script>
   <script src="code.js"></script>
 </head>
 <body>
@@ -368,6 +369,10 @@
     <sep></sep>
     <category name="%{BKY_CATVARIABLES}" colour="%{BKY_VARIABLES_HUE}" custom="VARIABLE"></category>
     <category name="%{BKY_CATFUNCTIONS}" colour="%{BKY_PROCEDURES_HUE}" custom="PROCEDURE"></category>
+    <sep></sep>
+    <category name="时间" colour="%{BKY_MATH_HUE}">
+      <block type="current_hour"></block>
+    </category>
   </xml>
 
 </body>
